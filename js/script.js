@@ -34,9 +34,11 @@ btn.addEventListener("click", function(){
     
     if (p > c){
         document.getElementById("esito").innerHTML = "Hai avuto fortuna";
-    } else {
+    } else if (p < c) {
         document.getElementById("esito").innerHTML = "La morte ti aspetta";
-    };
+    } else {
+        document.getElementById("esito").innerHTML = "L'incubo continua";
+    }
     
 });
 
