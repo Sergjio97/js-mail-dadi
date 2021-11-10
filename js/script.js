@@ -12,7 +12,51 @@ for (let i = 0; i < utentiRegistrati.length && sentinella == false; i++){
 }
 
 if (sentinella == true){
+
     alert("Login effettuato con successo");
 } else {
-    alert("utante non registrato");
+    alert("utente non registrato");
 }
+
+// *** start gioco dei dadi ***
+
+let btn = document.getElementById("btn");
+
+btn.addEventListener("click", function(){
+
+    document.getElementById("player").innerHTML = Math.floor(Math.random()* 6) + 1;
+
+    document.getElementById("computer").innerHTML = Math.floor(Math.random()* 6) + 1;
+
+    let p = document.getElementById("player").innerHTML = Math.floor(Math.random()* 6) + 1;
+
+    let c = document.getElementById("computer").innerHTML = Math.floor(Math.random()* 6) + 1;
+    
+    if (p > c){
+        document.getElementById("esito").innerHTML = "Hai Vinto";
+    } else {
+        document.getElementById("esito").innerHTML = "Hai Perso";
+    };
+    
+
+    // if (p > c){
+    //     alert("hai vinto");
+    // } else {
+    //     alert("hai perso");
+    // };
+
+});
+
+// let p = document.getElementById("player").innerHTML = Math.floor(Math.random()* 6) + 1;
+
+// let c = document.getElementById("computer").innerHTML = Math.floor(Math.random()* 6) + 1;
+
+// if (p > c){
+//     alert("hai vinto");
+// } else {
+//     alert("hai perso");
+// };
+
+
+
+

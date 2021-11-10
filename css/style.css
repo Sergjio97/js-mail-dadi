@@ -1,0 +1,57 @@
+body {
+    background-image: url(../img/saw-9.webp);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    color: rgb(189, 2, 2);
+}
+
+.box {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btn {
+    padding: 30px 30px;
+    border-radius: 50%;
+    background-color: rgb(189, 2, 2);
+}
+
+#player {
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(189, 2, 2);
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+#computer {
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(189, 2, 2);
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+#esito {
+    width: 10%;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgb(189, 2, 2);
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+}
