@@ -18,6 +18,10 @@ if (sentinella == true){
     alert("utente non registrato");
 }
 
+if (sentinella == false){
+    document.querySelector("body").classList.add("d-none");
+}
+
 // *** start gioco dei dadi ***
 
 let btn = document.getElementById("btn");
@@ -41,17 +45,6 @@ btn.addEventListener("click", function(){
     }
     
 });
-
-// let p = document.getElementById("player").innerHTML = Math.floor(Math.random()* 6) + 1;
-
-// let c = document.getElementById("computer").innerHTML = Math.floor(Math.random()* 6) + 1;
-
-// if (p > c){
-//     alert("hai vinto");
-// } else {
-//     alert("hai perso");
-// };
-
 
 
 
