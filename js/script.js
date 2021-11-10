@@ -33,18 +33,11 @@ btn.addEventListener("click", function(){
     let c = document.getElementById("computer").innerHTML = Math.floor(Math.random()* 6) + 1;
     
     if (p > c){
-        document.getElementById("esito").innerHTML = "Hai Vinto";
+        document.getElementById("esito").innerHTML = "Hai avuto fortuna";
     } else {
-        document.getElementById("esito").innerHTML = "Hai Perso";
+        document.getElementById("esito").innerHTML = "La morte ti aspetta";
     };
     
-
-    // if (p > c){
-    //     alert("hai vinto");
-    // } else {
-    //     alert("hai perso");
-    // };
-
 });
 
 // let p = document.getElementById("player").innerHTML = Math.floor(Math.random()* 6) + 1;
