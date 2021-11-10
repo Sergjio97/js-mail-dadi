@@ -12,7 +12,7 @@ for (let i = 0; i < utentiRegistrati.length && sentinella == false; i++){
 }
 
 if (sentinella == true){
-    console.log("ok");
+    alert("Login effettuato con successo");
 } else {
-    console.log("no");
+    alert("utante non registrato");
 }
